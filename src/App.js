@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function App() {
 const [count, setCount] = useState(()=> {
-  console.log('run function')
+  console.log('state change')
   return 4
 })
 
