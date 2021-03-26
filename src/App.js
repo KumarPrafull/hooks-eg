@@ -16,9 +16,9 @@ function plusCount() {
 
   return (
     <>
-    <button onClick={minusCount}>  -  </button>
+    <button class='btn' onClick={minusCount}>  -  </button>
     <span> {count} </span>
-    <button onClick={plusCount}>  +  </button>    
+    <button class='btn' onClick={plusCount}>  +  </button>    
     </>
   );
 }
