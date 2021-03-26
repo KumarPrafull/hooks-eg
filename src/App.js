@@ -15,11 +15,11 @@ function plusCount() {
 }
 
   return (
-    <>
-    <button class='btn' onClick={minusCount}>  -  </button>
-    <span> {count} </span>
-    <button class='btn' onClick={plusCount}>  +  </button>    
-    </>
+    <div class='container' >
+    <button class='btn' onClick={minusCount}>  Delete  </button>
+    <span class='label' > {count} </span>
+    <button class='btn' onClick={plusCount}>  Add  </button>    
+    </div>
   );
 }
 
